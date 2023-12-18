@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import hm from "../../Assets/Projects/hm.png";
+import p2pshare from "../../Assets/Projects/p2pshare.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import socciogram from "../../Assets/Projects/socciogram.png";
 
 function Projects() {
   return (
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={p2pshare}
               isBlog={false}
               title="P2PShare"
               description="Secure communications and file sharing over WebRTC. P2P Share is a simple web application that enables two peers to connect to each other over UDP protocol and share files, video call etc securely. User has access to various tools and components to interact with such as WhiteBoard, chat box, videowall and file transfer dock."
@@ -34,7 +34,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={socciogram}
               isBlog={false}
               title="SoccioGram"
               description="A chat web app was built as part of my portfolio projects. It is a platformwhere users can text one another, make group chat, and share their thoughts.The application is built using MERN stack. MongoDB and Mongoose are usedfor the database. Web Sockets are used for real time communication."
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={hm}
               isBlog={false}
               title="H&M Clone"
               description="Developed a full-stack MERN e-commerce application with user logincapabilities, cart manage- ment (addition and removal), product reviewfunctionality, payment gateway integration, password recovery, and an adminpanel for product management (addition, removal, and deletion)."
